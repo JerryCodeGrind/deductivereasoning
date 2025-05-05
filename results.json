@@ -1,0 +1,1028 @@
+[
+  {
+    "case_number": 1,
+    "doctor_vignette": "A 129-year-old male presents with severe abdominal pain localized to the right lower quadrant, accompanied by nausea and a low-grade fever. On physical examination, he exhibits tenderness and rebound tenderness in the right lower abdomen with guarding. Laboratory tests reveal an elevated white blood cell count of 14,000/mm\u00b3, and an abdominal ultrasound shows a thickened appendix with surrounding fluid, suggestive of acute appendicitis.",
+    "actual_diagnosis": "Acute appendicitis, ICD-10 code K35.2",
+    "diseases": [
+      "Acute Appendicitis",
+      "Diverticulitis",
+      "Renal Colic",
+      "Mesenteric Ischemia",
+      "Inflammatory Bowel Disease",
+      "Ovarian Torsion",
+      "Pelvic Inflammatory Disease",
+      "Abdominal Aortic Aneurysm",
+      "Perforated Viscus",
+      "Pancreatitis"
+    ],
+    "least_likely_disease": "Pancreatitis",
+    "ruling_out_question": "\"Have you experienced any severe upper abdominal pain or back pain?\""
+  },
+  {
+    "case_number": 2,
+    "doctor_vignette": "A 128-year-old male presents with worsening fatigue and intermittent difficulty in speaking over the past month. Neurological examination reveals decreased strength in the right upper extremity and a positive Babinski sign on the right. MRI of the brain shows multiple hyperintense lesions in the periventricular white matter consistent with demyelination. Cerebrospinal fluid analysis reveals elevated oligoclonal bands.",
+    "actual_diagnosis": "Multiple sclerosis, ICD-10 code G35",
+    "diseases": [
+      "Multiple Sclerosis",
+      "Neuromyelitis Optica Spectrum Disorder",
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "Central Demyelinating Disease",
+      "Cerebral Vasculitis",
+      "Progressive Multifocal Leukoencephalopathy",
+      "Acute Disseminated Encephalomyelitis",
+      "Secondary Progressive Multiple Sclerosis",
+      "Balo's Concentric Sclerosis",
+      "Neuroborreliosis"
+    ],
+    "least_likely_disease": "Neuroborreliosis",
+    "ruling_out_question": "\"Have you experienced any recent episodes of joint pain or swelling?\""
+  },
+  {
+    "case_number": 3,
+    "doctor_vignette": "A 100-year-old female presents to the emergency department with sudden onset shortness of breath and chest pain. On physical examination, she is tachypneic with a heart rate of 110 bpm and has decreased oxygen saturation at 85% on room air. A chest CT angiogram reveals a large pulmonary embolism in the right main pulmonary artery. Her D-dimer level is significantly elevated, supporting the diagnosis.",
+    "actual_diagnosis": "Pulmonary embolism, ICD-10 code I26.9",
+    "diseases": [
+      "Pulmonary Embolism",
+      "Acute Myocardial Infarction",
+      "Congestive Heart Failure",
+      "Pneumonia",
+      "Aortic Dissection",
+      "Chronic Obstructive Pulmonary Disease",
+      "Pleural Effusion",
+      "Pneumothorax",
+      "Acute Respiratory Distress Syndrome",
+      "Pericardial Effusion"
+    ],
+    "least_likely_disease": "Pericardial Effusion",
+    "ruling_out_question": "\"Have you experienced any symptoms of pericardial friction rub, such as chest discomfort that worsens with deep breathing or changing positions?\""
+  },
+  {
+    "case_number": 4,
+    "doctor_vignette": "A 71-year-old female presents with fatigue and decreased appetite for the past several months. On physical examination, she has bilateral lower extremity edema and pale conjunctiva. Laboratory results reveal an elevated serum creatinine level of 2.5 mg/dL and a glomerular filtration rate (GFR) of 30 mL/min. Urinalysis shows proteinuria and hematuria, indicating underlying kidney dysfunction.",
+    "actual_diagnosis": "Chronic kidney disease, ICD-10 code N18.9",
+    "diseases": [
+      "Chronic Kidney Disease",
+      "Diabetic Nephropathy",
+      "Hypertensive Nephrosclerosis",
+      "Chronic Glomerulonephritis",
+      "Multiple Myeloma",
+      "Autoimmune Glomerulonephritis",
+      "Renal Cell Carcinoma",
+      "Acute Kidney Injury",
+      "Heart Failure",
+      "Hypoalbuminemia"
+    ],
+    "least_likely_disease": "Hypoalbuminemia",
+    "ruling_out_question": "\"Have you experienced any swelling or pitting edema in your lower legs or abdomen?\""
+  },
+  {
+    "case_number": 5,
+    "doctor_vignette": "A 63-year-old female presents with a chief complaint of bilateral joint pain and stiffness lasting more than six weeks, particularly in her hands and knees. Physical examination reveals swelling, tenderness, and decreased range of motion in the affected joints, along with subcutaneous nodules. Laboratory tests show positive rheumatoid factor and elevated anti-CCP antibodies, alongside a high sedimentation rate indicating inflammation.",
+    "actual_diagnosis": "Rheumatoid arthritis, ICD-10 code M06.9",
+    "diseases": [
+      "Rheumatoid Arthritis",
+      "Osteoarthritis",
+      "Psoriatic Arthritis",
+      "Still's Disease",
+      "Lupus Erythematosus",
+      "Gout",
+      "Sj\u00f6gren's Syndrome",
+      "Reactive Arthritis",
+      "Infectious Arthritis",
+      "Fibromyalgia"
+    ],
+    "least_likely_disease": "Fibromyalgia",
+    "ruling_out_question": "\"Do you experience widespread pain in multiple areas of your body that is not limited to specific joints?\""
+  },
+  {
+    "case_number": 6,
+    "doctor_vignette": "A 48-year-old male presents with a chief complaint of persistent cough and increasing shortness of breath over the past few months. Physical examination reveals digital clubbing, wheezing, and decreased breath sounds bilaterally. A chest X-ray shows bronchiectasis, and sputum analysis reveals a high concentration of salt and the presence of Pseudomonas aeruginosa.",
+    "actual_diagnosis": "Cystic fibrosis, ICD-10 code E84.9",
+    "diseases": [
+      "Cystic Fibrosis",
+      "Bronchiectasis",
+      "Chronic Obstructive Pulmonary Disease",
+      "Interstitial Lung Disease",
+      "Bronchial Asthma",
+      "Pseudomonas Aeruginosa Infection",
+      "Tuberculosis",
+      "Non-Small Cell Lung Carcinoma",
+      "Pulmonary Fibrosis",
+      "Sarcoidosis"
+    ],
+    "least_likely_disease": "Sarcoidosis",
+    "ruling_out_question": "\"Have you experienced any unexplained rashes or skin lesions?\""
+  },
+  {
+    "case_number": 7,
+    "doctor_vignette": "A 5-year-old female presents with complaints of fatigue and difficulty concentrating at school. On physical examination, she is noted to have dry skin, thinning hair, and a bradycardic heart rate of 60 beats per minute. Laboratory tests reveal elevated TSH levels of 12 mU/L and low free T4 levels of 0.5 ng/dL, indicating thyroid dysfunction.",
+    "actual_diagnosis": "Acquired hypothyroidism, ICD-10 code E03.9",
+    "diseases": [
+      "Hypothyroidism",
+      "Autoimmune Thyroiditis (Hashimoto's Thyroiditis)",
+      "Congenital Hypothyroidism",
+      "Iron Deficiency Anemia",
+      "Celiac Disease",
+      "Wilson's Disease",
+      "Chronic Fatigue Syndrome",
+      "Aplasia Cutis Congenita",
+      "Ehlers-Danlos Syndrome",
+      "Klinefelter Syndrome"
+    ],
+    "least_likely_disease": "Klinefelter Syndrome",
+    "ruling_out_question": "\"Have you experienced anyissues with growth or development compared to your peers?\""
+  },
+  {
+    "case_number": 8,
+    "doctor_vignette": "A 12-year-old female presents with complaints of increasing muscle weakness, particularly in her arms and eyelids, which worsens with activity and improves with rest. Physical examination reveals ptosis of the left eyelid and generalized weakness in the proximal muscle groups. A serological test shows positive anti-acetylcholine receptor antibodies, supporting the diagnosis.",
+    "actual_diagnosis": "Myasthenia gravis, ICD-10 code G70.0",
+    "diseases": [
+      "Myasthenia Gravis",
+      "Congenital Myasthenic Syndrome",
+      "Lambert-Eaton Myasthenic Syndrome",
+      "Thyroid Eye Disease",
+      "Duchenne Muscular Dystrophy",
+      "Acute Inflammatory Demyelinating Polyneuropathy",
+      "Botulism",
+      "Myopathy due to Metabolic Disorder",
+      "Neurogenic Muscle Atrophy",
+      "Spinal Muscular Atrophy"
+    ],
+    "least_likely_disease": "Spinal Muscular Atrophy",
+    "ruling_out_question": "\"Have you experienced any significant muscle atrophy or loss of muscle bulk?\""
+  },
+  {
+    "case_number": 9,
+    "doctor_vignette": "A 62-year-old female presents with joint swelling and pain in her right knee following a minor fall. Upon examination, there is notable effusion and tenderness in the joint, along with easy bruising on her forearms. Lab results reveal a prolonged activated partial thromboplastin time (aPTT) with normal prothrombin time (PT) and low factor VIII levels, confirming a bleeding disorder.",
+    "actual_diagnosis": "Hemophilia A, ICD-10 code D66",
+    "diseases": [
+      "Hemophilia A",
+      "Von Willebrand Disease",
+      "Factor VIII Inhibitor Deficiency",
+      "Antiphospholipid Syndrome",
+      "Disseminated Intravascular Coagulation",
+      "Thrombocytopenic Purpura",
+      "Lupus Anticoagulant Syndrome",
+      "Vitamin K Deficiency",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis"
+    ],
+    "least_likely_disease": "Rheumatoid Arthritis",
+    "ruling_out_question": "\"Do you experience morning stiffness in your joints that improves with activity throughout the day?\""
+  },
+  {
+    "case_number": 10,
+    "doctor_vignette": "A 114-year-old female presents with sudden onset of severe chest pain radiating to the back. Physical examination reveals a diastolic murmur and a BP differential of 20 mmHg between the arms. A chest X-ray shows a widened mediastinum, and a CT scan confirms an aortic dissection extending from the ascending aorta to the descending aorta.",
+    "actual_diagnosis": "Aortic dissection, ICD-10 code I71.0",
+    "diseases": [
+      "Aortic Dissection",
+      "Myocardial Infarction",
+      "Pulmonary Embolism",
+      "Aortic Regurgitation",
+      "Cardiac Tamponade",
+      "Thoracic Aortic Aneurysm",
+      "Acute Coronary Syndrome",
+      "Hypertensive Emergency",
+      "Pericarditis",
+      "Esophageal Rupture"
+    ],
+    "least_likely_disease": "Esophageal Rupture",
+    "ruling_out_question": "\"Have you experienced any history of severe vomiting or retching prior to the onset of your chest pain?\""
+  },
+  {
+    "case_number": 11,
+    "doctor_vignette": "A 65-year-old female presents with fatigue, joint pain, and a butterfly-shaped rash on her face. Physical examination reveals swelling in her hands and wrists, along with oral ulcers. Laboratory tests show positive antinuclear antibodies (ANA) and elevated anti-double-stranded DNA antibodies.",
+    "actual_diagnosis": "Systemic lupus erythematosus, ICD-10 code M32.9",
+    "diseases": [
+      "Systemic Lupus Erythematosus",
+      "Rheumatoid Arthritis",
+      "Dermatomyositis",
+      "Sjogren's Syndrome",
+      "Mixed Connective Tissue Disease",
+      "Psoriatic Arthritis",
+      "Infectious Mononucleosis",
+      "Vasculitis",
+      "Hypothyroidism",
+      "Fibromyalgia"
+    ],
+    "least_likely_disease": "Fibromyalgia",
+    "ruling_out_question": "\"Have you experienced any trigger points or areas of localized tenderness that are consistently painful to touch?\""
+  },
+  {
+    "case_number": 12,
+    "doctor_vignette": "A 117-year-old female presents with weight fluctuations and reports binge eating followed by self-induced vomiting. Physical examination reveals dental erosion and electrolyte imbalances, with a potassium level of 2.8 mEq/L. She expresses significant distress regarding her body image and dietary habits, and has a history of anxiety and depression.",
+    "actual_diagnosis": "Bulimia nervosa, ICD-10 code F50.2",
+    "diseases": [
+      "Bulimia Nervosa",
+      "Anorexia Nervosa",
+      "Binge Eating Disorder",
+      "Mood Disorder",
+      "Generalized Anxiety Disorder",
+      "Electrolyte Imbalance",
+      "Dental Erosion",
+      "Major Depressive Disorder",
+      "Gastroesophageal Reflux Disease",
+      "Hypokalemia"
+    ],
+    "least_likely_disease": "Hypokalemia",
+    "ruling_out_question": "\"Have you experienced any muscle weakness or cramps?\""
+  },
+  {
+    "case_number": 13,
+    "doctor_vignette": "An 81-year-old male presents with severe pain in the lower left jaw, exacerbated by chewing. On examination, there is swelling and tenderness over the left mandible, with a noticeable fluctuant mass. Radiographic imaging reveals a periapical radiolucency associated with the affected tooth, indicating an abscess. Vital signs are stable, but the patient shows signs of distress due to pain.",
+    "actual_diagnosis": "Tooth abscess, ICD-10 code K04.7",
+    "diseases": [
+      "Periapical Abscess",
+      "Osteomyelitis of the Jaw",
+      "Dental Caries",
+      "Periodontal Abscess",
+      "Tooth Fracture",
+      "Temporomandibular Joint Disorder",
+      "Fibrous Dysplasia",
+      "Oral Squamous Cell Carcinoma",
+      "Malignant Neoplasm of the Jaw",
+      "Maxillary Sinusitis"
+    ],
+    "least_likely_disease": "Maxillary Sinusitis",
+    "ruling_out_question": "\"Have you experienced any nasal congestion or facial pressure in the area of your cheeks or forehead?\""
+  },
+  {
+    "case_number": 14,
+    "doctor_vignette": "A 79-year-old male presents with a chief complaint of a persistent cough for the past two weeks, associated with mild wheezing and a low-grade fever. On physical examination, there are crackles heard in the lungs and a heart rate of 98 beats per minute. A chest X-ray shows no evidence of pneumonia, and a sputum sample reveals mild bronchial inflammation with no bacterial growth.",
+    "actual_diagnosis": "Acute bronchitis, ICD-10 code J20.9",
+    "diseases": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Bronchitis",
+      "Heart Failure",
+      "Interstitial Lung Disease",
+      "Lung Cancer",
+      "Asthma",
+      "Acute Bronchitis",
+      "Viral Pneumonia",
+      "Pulmonary Embolism",
+      "Tuberculosis"
+    ],
+    "least_likely_disease": "Tuberculosis",
+    "ruling_out_question": "\"Have you experienced any night sweats or significant weight loss in the past few months?\""
+  },
+  {
+    "case_number": 15,
+    "doctor_vignette": "An 88-year-old male presents to the emergency department with sudden onset of sharp right-sided chest pain and shortness of breath. On physical examination, he exhibits decreased breath sounds on the right side and tachycardia. A chest X-ray reveals a large right-sided pneumothorax with mediastinal shift. His vital signs show mild hypotension and increased respiratory rate.",
+    "actual_diagnosis": "Pneumothorax, ICD-10 code J93.9",
+    "diseases": [
+      "Pneumothorax",
+      "Pulmonary Embolism",
+      "Acute Coronary Syndrome",
+      "Chronic Obstructive Pulmonary Disease",
+      "Congestive Heart Failure",
+      "Aortic Dissection",
+      "Pneumonia",
+      "Cardiac Tamponade",
+      "Ruptured Lung Cyst",
+      "Malignancy (e.g., Lung Cancer)"
+    ],
+    "least_likely_disease": "Malignancy (e.g., Lung Cancer)",
+    "ruling_out_question": "\"Have you experienced any weight loss or significant changes in appetite recently?\""
+  },
+  {
+    "case_number": 16,
+    "doctor_vignette": "A 57-year-old male presents with fatigue and pallor. On examination, he has a smooth, beefy red tongue and mild jaundice. Laboratory tests reveal a low hemoglobin level of 8.5 g/dL, elevated mean corpuscular volume (MCV) of 110 fL, and a positive intrinsic factor antibody test.",
+    "actual_diagnosis": "Pernicious anemia, ICD-10 code D51.0",
+    "diseases": [
+      "Vitamin B12 Deficiency Anemia",
+      "Pernicious Anemia",
+      "Folate Deficiency Anemia",
+      "Macrocytic Anemia due to Liver Disease",
+      "Hypothyroid-induced Anemia",
+      "Myelodysplastic Syndromes",
+      "Chronic Alcoholism-related Anemia",
+      "Aplastic Anemia",
+      "Lymphoma-related Anemia",
+      "Hemolytic Anemia"
+    ],
+    "least_likely_disease": "Hemolytic Anemia",
+    "ruling_out_question": "\"Have you experienced any dark-colored urine or noticed your urine foaming?\""
+  },
+  {
+    "case_number": 17,
+    "doctor_vignette": "A 91-year-old female presents with a chief complaint of severe burning pain and redness in her feet, which worsens with warmth and improves with cooling. On physical examination, her feet are warm, red, and swollen, with a notable increase in temperature compared to her legs. Laboratory tests reveal normal complete blood count and metabolic panel, while vascular imaging shows no significant occlusive disease in the lower extremities.",
+    "actual_diagnosis": "Erythromelalgia, ICD-10 code G57.0",
+    "diseases": [
+      "Gout",
+      "Peripheral Neuropathy",
+      "Rheumatoid Arthritis",
+      "Complex Regional Pain Syndrome",
+      "Deep Vein Thrombosis",
+      "Vasculitis",
+      "Cellulitis",
+      "Diabetic Neuropathy",
+      "Erythromelalgia",
+      "Arterial Insufficiency"
+    ],
+    "least_likely_disease": "Arterial Insufficiency",
+    "ruling_out_question": "\"Do you experience any pain in your feet at rest, especially when lying down?\""
+  },
+  {
+    "case_number": 18,
+    "doctor_vignette": "A 91-year-old female presents with chronic diarrhea and significant weight loss over the past three months. On physical examination, she has a distended abdomen and signs of malnutrition, including muscle wasting and dry skin. Laboratory tests reveal elevated anti-tissue transglutaminase antibodies and a low hemoglobin level indicating anemia. An upper endoscopy shows villous atrophy in the duodenum, consistent with celiac disease.",
+    "actual_diagnosis": "Celiac disease, ICD-10 code K90.0",
+    "diseases": [
+      "Celiac Disease",
+      "Malnutrition",
+      "Inflammatory Bowel Disease",
+      "Colorectal Cancer",
+      "Lactose Intolerance",
+      "Hyperthyroidism",
+      "Chronic Pancreatitis",
+      "Bacterial Overgrowth Syndrome",
+      "Tropical Sprue",
+      "Microscopic Colitis"
+    ],
+    "least_likely_disease": "Microscopic Colitis",
+    "ruling_out_question": "\"Have you experienced any episodes of watery diarrhea that are often accompanied by urgent bowel movements?\""
+  },
+  {
+    "case_number": 19,
+    "doctor_vignette": "A 90-year-old female presents with complaints of increased abdominal girth and easy bruising over the past six months. Physical examination reveals a rounded face, purple striae on the abdomen, and proximal muscle weakness. Laboratory tests show elevated cortisol levels in a 24-hour urine collection and suppressed ACTH levels.",
+    "actual_diagnosis": "Cushing's syndrome, ICD-10 code E24.9",
+    "diseases": [
+      "Cushing's Syndrome",
+      "Cushing's Disease",
+      "Adrenal Adenoma",
+      "Liver Cirrhosis",
+      "Chronic Kidney Disease",
+      "Primary Hyperaldosteronism",
+      "Pseudo-Cushing's Syndrome",
+      "Acute Lymphoblastic Leukemia",
+      "Hematologic Malignancy",
+      "Multiple Myeloma"
+    ],
+    "least_likely_disease": "Multiple Myeloma",
+    "ruling_out_question": "\"Have you experienced any bone pain, especially in your back or ribs?\""
+  },
+  {
+    "case_number": 20,
+    "doctor_vignette": "A 74-year-old female presents with recurrent fractures and chronic pain in her lower extremities. Upon physical examination, she displays blue sclera and a history of multiple bone fractures with minimal trauma. X-rays reveal multiple healed fractures and osteopenia. Genetic testing confirms a mutation in the COL1A1 gene, indicative of Osteogenesis imperfecta.",
+    "actual_diagnosis": "Osteogenesis imperfecta, ICD-10 code Q78.0",
+    "diseases": [
+      "Osteogenesis Imperfecta",
+      "Osteoporosis",
+      "Paget's Disease of Bone",
+      "Bone Metastases",
+      "Hyperparathyroidism",
+      "Vitamin D Deficiency Osteomalacia",
+      "Multiple Myeloma",
+      "Chronic Kidney Disease",
+      "Connective Tissue Disease",
+      "Cushing's Syndrome"
+    ],
+    "least_likely_disease": "Cushing's Syndrome",
+    "ruling_out_question": "\"Have you experienced any significant weight gain, particularly in your central body area, or notable changes in your appetite?\""
+  },
+  {
+    "case_number": 21,
+    "doctor_vignette": "A 93-year-old male presents with dry, scaly skin primarily affecting his lower extremities and trunk, which he reports has worsened over the past year. On physical examination, his skin is noted to be rough, with fine white scales, particularly on the shins and forearms, and he shows no signs of inflammation or infection. A biopsy of the skin reveals a thickened stratum corneum with minimal inflammation, consistent with ichthyosis vulgaris. Laboratory tests show normal serum electrolytes and no signs of systemic disease.",
+    "actual_diagnosis": "Ichthyosis vulgaris, ICD-10 code Q81.0",
+    "diseases": [
+      "Ichthyosis Vulgaris",
+      "Xerosis",
+      "Seborrheic Keratosis",
+      "Psoriasis",
+      "Atopic Dermatitis",
+      "Contact Dermatitis",
+      "Lichen Simplex Chronicus",
+      "Acne Vulgaris",
+      "Tinea Corporis",
+      "Nummular Eczema"
+    ],
+    "least_likely_disease": "Nummular Eczema",
+    "ruling_out_question": "\"Have you experienced any intense itching or a burning sensation associated with your skin changes?\""
+  },
+  {
+    "case_number": 22,
+    "doctor_vignette": "A 116-year-old female presents with a chief complaint of recurrent severe headaches occurring 15 days per month, accompanied by nausea and sensitivity to light. Physical examination reveals tenderness in the pericranial muscles and a normal neurological exam. MRI of the brain shows no acute intracranial pathology, consistent with a diagnosis of chronic migraines.",
+    "actual_diagnosis": "Chronic migraines, ICD-10 code G43.709",
+    "diseases": [
+      "Chronic Migraine",
+      "Tension-Type Headache",
+      "Cluster Headache",
+      "Medication Overuse Headache",
+      "Cervicogenic Headache",
+      "Intracranial Hypertension",
+      "Giant Cell Arteritis",
+      "Substance Withdrawal Headache",
+      "Intracranial Aneurysm",
+      "Meningitis"
+    ],
+    "least_likely_disease": "Meningitis",
+    "ruling_out_question": "\"Have you experienced any neck stiffness or photophobia beyond what you've described with your headaches?\""
+  },
+  {
+    "case_number": 23,
+    "doctor_vignette": "A 148-year-old male presents with a chief complaint of persistent cough and shortness of breath for the past three days. Physical examination reveals tachypnea, crackles on lung auscultation, and a fever of 102\u00b0F. Chest X-ray shows bilateral infiltrates, and rapid influenza diagnostic test is positive for Influenza A.",
+    "actual_diagnosis": "Pneumonia due to influenza, ICD-10 code J10.1",
+    "diseases": [
+      "Pneumonia",
+      "Acute Respiratory Distress Syndrome",
+      "Bronchitis",
+      "Influenza Pneumonia",
+      "Bacterial Superinfection",
+      "Congestive Heart Failure",
+      "Pulmonary Embolism",
+      "Aspiration Pneumonia",
+      "Interstitial Lung Disease",
+      "Tuberculosis"
+    ],
+    "least_likely_disease": "Tuberculosis",
+    "ruling_out_question": "\"Have you experienced any unexplained weight loss or night sweats recently?\""
+  },
+  {
+    "case_number": 24,
+    "doctor_vignette": "An 84-year-old male presents with complaints of persistent fatigue and weight gain over the past six months. On physical examination, he exhibits dry skin, bradycardia, and a delayed relaxation phase of deep tendon reflexes. Laboratory tests reveal an elevated TSH level of 12 mIU/L and a low free T4 level of 0.7 ng/dL.",
+    "actual_diagnosis": "Hypothyroidism, ICD-10 code E03.9",
+    "diseases": [
+      "Primary Hypothyroidism",
+      "Subclinical Hypothyroidism",
+      "Congestive Heart Failure",
+      "Chronic Kidney Disease",
+      "Anemia of Chronic Disease",
+      "Hemochromatosis",
+      "Adrenal Insufficiency",
+      "Malnutrition",
+      "Diabetes Mellitus",
+      "Multifactorial Weight Gain"
+    ],
+    "least_likely_disease": "Multifactorial Weight Gain",
+    "ruling_out_question": "\"Have you experienced changes in your appetite or sudden food cravings recently?\""
+  },
+  {
+    "case_number": 25,
+    "doctor_vignette": "A 41-year-old male presents with a chief complaint of sudden, severe pain and swelling in his right big toe, which started overnight. On examination, the toe is erythematous, warm, and exquisitely tender to touch. Serum uric acid levels are found to be elevated at 9.5 mg/dL, and joint aspiration reveals needle-shaped monosodium urate crystals in the synovial fluid.",
+    "actual_diagnosis": "Gout, ICD-10 code M10.9",
+    "diseases": [
+      "Gout",
+      "Pseudogout",
+      "Septic Arthritis",
+      "Metabolic Syndrome",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis",
+      "Psoriatic Arthritis",
+      "Trauma",
+      "Crystal Arthritis",
+      "Bursitis"
+    ],
+    "least_likely_disease": "Bursitis",
+    "ruling_out_question": "\"Have you experienced any significant swelling or tenderness in areas other than your right big toe?\""
+  },
+  {
+    "case_number": 26,
+    "doctor_vignette": "A 70-year-old female presents with a chief complaint of increasing shortness of breath and a chronic cough that has worsened over the past six months. On physical examination, she exhibits wheezing, decreased breath sounds bilaterally, and use of accessory muscles for breathing. A recent chest X-ray shows hyperinflation of the lungs, and pulmonary function tests reveal a significant reduction in FEV1/FVC ratio, confirming obstructive lung disease.",
+    "actual_diagnosis": "Chronic obstructive pulmonary disease, ICD-10 code J44.9",
+    "diseases": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Asthma",
+      "Bronchiectasis",
+      "Interstitial Lung Disease",
+      "Pulmonary Fibrosis",
+      "Congestive Heart Failure",
+      "Lung Cancer",
+      "Chronic Bronchitis",
+      "Emphysema",
+      "Pulmonary Hypertension"
+    ],
+    "least_likely_disease": "Pulmonary Hypertension",
+    "ruling_out_question": "\"Have you experienced any swelling in your legs or abdomen?\""
+  },
+  {
+    "case_number": 27,
+    "doctor_vignette": "A 104-year-old female presents with acute chest pain radiating to her left arm, accompanied by shortness of breath. Physical examination reveals diaphoresis, tachycardia, and a blood pressure of 90/60 mmHg. An ECG shows ST-segment elevation in the anterior leads, and troponin levels are significantly elevated. ",
+    "actual_diagnosis": "Acute myocardial infarction, ICD-10 code I21.9",
+    "diseases": [
+      "Acute Myocardial Infarction",
+      "Pulmonary Embolism",
+      "Aortic Dissection",
+      "Acute Coronary Syndrome",
+      "Congestive Heart Failure",
+      "Pneumothorax",
+      "Pericarditis",
+      "Gastroesophageal Reflux Disease",
+      "Acute Respiratory Distress Syndrome",
+      "Epiglottitis"
+    ],
+    "least_likely_disease": "Epiglottitis",
+    "ruling_out_question": "\"Are you experiencing any difficulty swallowing or a sore throat?\""
+  },
+  {
+    "case_number": 28,
+    "doctor_vignette": "A 128-year-old male presents with a chief complaint of severe, throbbing headache that has persisted for the last 24 hours. Physical examination reveals no neurological deficits, and vital signs are stable. The patient reports sensitivity to light and sound but denies any visual disturbances. Routine lab tests and a CT scan of the head show no abnormalities.",
+    "actual_diagnosis": "Migraine without aura, ICD-10 code G43.009",
+    "diseases": [
+      "Migraine",
+      "Tension-Type Headache",
+      "Cluster Headache",
+      "Subarachnoid Hemorrhage",
+      "Giant Cell Arteritis",
+      "Rebound Headache",
+      "Cerebral Venous Sinus Thrombosis",
+      "Meningitis",
+      "Intracranial Hypertension",
+      "Occipital Neuralgia"
+    ],
+    "least_likely_disease": "Occipital Neuralgia",
+    "ruling_out_question": "\"Do you ever experience sharp, shooting pain in your neck or the back of your head?\""
+  },
+  {
+    "case_number": 29,
+    "doctor_vignette": "A 102-year-old male presents with severe joint pain and stiffness in both hands and knees, worsening in the morning. Physical examination reveals symmetrical swelling and tenderness in the metacarpophalangeal joints and a positive squeeze test. Laboratory tests show elevated rheumatoid factor and anti-CCP antibodies, along with a significantly raised ESR. X-rays demonstrate joint erosion and narrowing of the joint spaces in the affected areas.",
+    "actual_diagnosis": "Rheumatoid arthritis, ICD-10 code M05.79",
+    "diseases": [
+      "Rheumatoid Arthritis",
+      "Osteoarthritis",
+      "Gout",
+      "Psoriatic Arthritis",
+      "Atypical Gout",
+      "Reactive Arthritis",
+      "Systemic Lupus Erythematosus",
+      "Scleroderma",
+      "Polymyalgia Rheumatica",
+      "Infectious Arthritis"
+    ],
+    "least_likely_disease": "Infectious Arthritis",
+    "ruling_out_question": "\"Have you experienced any fever, chills, or significant swelling in the joints that developed rapidly?\""
+  },
+  {
+    "case_number": 30,
+    "doctor_vignette": "A 52-year-old female presents with progressive weakness and tingling in her legs over the past week, which has now ascended to her arms. On physical exam, she demonstrates decreased muscle strength in all four extremities, with absent deep tendon reflexes. A lumbar puncture reveals elevated protein levels in the cerebrospinal fluid with a normal white cell count. Electromyography shows conduction block, supporting the diagnosis.",
+    "actual_diagnosis": "Guillain-Barr\u00e9 syndrome, ICD-10 code G61.0",
+    "diseases": [
+      "Guillain-Barr\u00e9 Syndrome",
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "Acute Motor Axonal Neuropathy",
+      "Multifocal Motor Neuropathy",
+      "Diabetic Peripheral Neuropathy",
+      "Amyotrophic Lateral Sclerosis",
+      "Porphyria",
+      "Cervical Spondylotic Myelopathy",
+      "Multiple Sclerosis",
+      "Neuroborreliosis"
+    ],
+    "least_likely_disease": "Neuroborreliosis",
+    "ruling_out_question": "\"Have you experienced any recent history of a rash or tick bites?\""
+  },
+  {
+    "case_number": 31,
+    "doctor_vignette": "A 128-year-old female presents with a chief complaint of persistent, itchy, scaly patches on her elbows and knees. Physical examination reveals well-defined erythematous plaques covered with silvery-white scales. No significant findings are noted in laboratory tests, including a complete blood count and metabolic panel. A skin biopsy confirms the diagnosis of psoriasis.",
+    "actual_diagnosis": "Psoriasis, ICD-10 code L40.9",
+    "diseases": [
+      "Psoriasis",
+      "Atopic Dermatitis",
+      "Seborrheic Dermatitis",
+      "Lichen Planus",
+      "Nummular Eczema",
+      "Pityriasis Rosea",
+      "Cutaneous T-cell Lymphoma",
+      "Vulgaris Erythroderma",
+      "Granuloma Annulare",
+      "Keratosis Pilaris"
+    ],
+    "least_likely_disease": "Keratosis Pilaris",
+    "ruling_out_question": "\"Do you have any small, rough bumps on your arms or thighs that feel like gooseflesh?\""
+  },
+  {
+    "case_number": 32,
+    "doctor_vignette": "A 25-year-old female presents with severe right upper quadrant pain and nausea after a fatty meal. On physical examination, she exhibits tenderness in the right upper quadrant and a positive Murphy's sign. Laboratory tests reveal elevated white blood cell count and liver function tests, while an abdominal ultrasound shows gallbladder wall thickening and pericholecystic fluid, indicating inflammation.",
+    "actual_diagnosis": "Cholecystitis, ICD-10 code K81.0",
+    "diseases": [
+      "Acute Cholecystitis",
+      "Cholelithiasis",
+      "Choledocholithiasis",
+      "Gastroesophageal Reflux Disease",
+      "Acute Pancreatitis",
+      "Hepatitis",
+      "Peptic Ulcer Disease",
+      "Biliary Colic",
+      "Acute Hepatic Encephalopathy",
+      "Perforated Peptic Ulcer"
+    ],
+    "least_likely_disease": "Perforated Peptic Ulcer",
+    "ruling_out_question": "\"Have you experienced any episodes of severe abdominal pain that radiate to your back or shoulder?\""
+  },
+  {
+    "case_number": 33,
+    "doctor_vignette": "A 26-year-old male presents with complaints of decreased urine output and fatigue over the past three days. Physical examination reveals mild edema in the lower extremities and a blood pressure of 130/85 mmHg. Laboratory results show elevated serum creatinine levels of 3.5 mg/dL and a BUN of 30 mg/dL, indicating impaired kidney function. Urinalysis reveals muddy brown casts consistent with acute tubular necrosis.",
+    "actual_diagnosis": "Acute kidney injury, ICD-10 code N17.9",
+    "diseases": [
+      "Acute Tubular Necrosis",
+      "Prerenal Azotemia",
+      "Acute Kidney Injury",
+      "Postrenal Azotemia",
+      "Glomerulonephritis",
+      "Acute Interstitial Nephritis",
+      "Diabetic Nephropathy",
+      "Contrast-Induced Nephropathy",
+      "Systemic Lupus Erythematosus",
+      "Renal Artery Stenosis"
+    ],
+    "least_likely_disease": "Renal Artery Stenosis",
+    "ruling_out_question": "\"Have you experienced any sudden onset of severe flank pain or abdominal pain?\""
+  },
+  {
+    "case_number": 34,
+    "doctor_vignette": "A 57-year-old male presents with fatigue and weakness over the past month. On physical examination, he has pale conjunctiva and a mild tachycardia. Laboratory tests reveal a hemoglobin level of 10.2 g/dL, low ferritin at 10 ng/mL, and increased total iron-binding capacity. No recent gastrointestinal bleeding is noted on history.",
+    "actual_diagnosis": "Anemia due to iron deficiency, ICD-10 code D50.9",
+    "diseases": [
+      "Iron Deficiency Anemia",
+      "Anemia of Chronic Disease",
+      "Chronic Blood Loss Anemia",
+      "Renal Insufficiency Anemia",
+      "Aplastic Anemia",
+      "Thalassemia",
+      "Sideroblastic Anemia",
+      "Myelodysplastic Syndromes",
+      "Hemolytic Anemia",
+      "Vitamin B12 Deficiency Anemia"
+    ],
+    "least_likely_disease": "Vitamin B12 Deficiency Anemia",
+    "ruling_out_question": "\"Have you experienced any numbness or tingling in your hands or feet?\""
+  },
+  {
+    "case_number": 35,
+    "doctor_vignette": "A 42-year-old female presents with a chief complaint of persistent lower back pain following a minor fall. Physical exam reveals tenderness in the lumbar spine and a noticeable loss of height. Bone density testing indicates a T-score of -2.8, consistent with osteoporosis. She has a history of amenorrhea and low calcium intake, contributing factors to her condition.",
+    "actual_diagnosis": "Osteoporosis, ICD-10 code M81.0",
+    "diseases": [
+      "Osteoporosis",
+      "Vertebral Compression Fracture",
+      "Lumbar Strain",
+      "Osteomalacia",
+      "Paget\u2019s Disease of Bone",
+      "Chronic Kidney Disease",
+      "Hypoparathyroidism",
+      "Malabsorption Syndrome",
+      "Multiple Myeloma",
+      "Fibromyalgia"
+    ],
+    "least_likely_disease": "Fibromyalgia",
+    "ruling_out_question": "\"Do you experience widespread pain in multiple areas of your body on both sides for at least three months?\""
+  },
+  {
+    "case_number": 36,
+    "doctor_vignette": "A 93-year-old male presents with a chief complaint of worsening tremors in his right hand over the past six months. Physical examination reveals a resting tremor, bradykinesia, and rigidity in his upper extremities, along with a shuffling gait. His Mini-Mental State Examination score is 24, indicating mild cognitive impairment. MRI of the brain shows no acute abnormalities but confirms age-related changes.",
+    "actual_diagnosis": "Parkinson's disease, ICD-10 code G20",
+    "diseases": [
+      "Parkinson's Disease",
+      "Essential Tremor",
+      "Multiple System Atrophy",
+      "Parkinsonism Due to Antipsychotic Medications",
+      "Normal Pressure Hydrocephalus",
+      "Corticobasal Degeneration",
+      "Dementia with Lewy Bodies",
+      "Vascular Parkinsonism",
+      "Restless Legs Syndrome",
+      "Wilson's Disease"
+    ],
+    "least_likely_disease": "Wilson's Disease",
+    "ruling_out_question": "\"Have you experienced any yellowing of your skin or eyes?\""
+  },
+  {
+    "case_number": 37,
+    "doctor_vignette": "An 84-year-old male presents with a chief complaint of persistent cough and unexplained weight loss over the past three months. On physical examination, he has decreased breath sounds in the left lung base and notable lymphadenopathy in the cervical region. Chest X-ray reveals a cavitary lesion in the left upper lobe, and sputum smear shows acid-fast bacilli.",
+    "actual_diagnosis": "Tuberculosis, ICD-10 code A15.9",
+    "diseases": [
+      "Pulmonary Tuberculosis",
+      "Lung Cancer",
+      "Chronic Obstructive Pulmonary Disease",
+      "Pneumococcal Pneumonia",
+      "Squamous Cell Carcinoma of the Lung",
+      "Lymphoma",
+      "Sarcoidosis",
+      "Granulomatosis with Polyangiitis",
+      "Histoplasmosis",
+      "Aspergillosis"
+    ],
+    "least_likely_disease": "Aspergillosis",
+    "ruling_out_question": "\"Have you experienced any worsening fever or chills along with your cough?\""
+  },
+  {
+    "case_number": 38,
+    "doctor_vignette": "A 100-year-old female presents with worsening muscle weakness, particularly in her eyes and limbs, over the past two months. On examination, she exhibits bilateral ptosis and generalized muscle fatigability. A serological test reveals the presence of acetylcholine receptor antibodies, and a CT scan shows thymic hyperplasia. ",
+    "actual_diagnosis": "Myasthenia gravis, ICD-10 code G70.00",
+    "diseases": [
+      "Myasthenia Gravis",
+      "Lambert-Eaton Myasthenic Syndrome",
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "Thymoma",
+      "Hyperthyroid Myopathy",
+      "Corticobasal Degeneration",
+      "Neuromyotonia",
+      "Polymyositis",
+      "Duchenne Muscular Dystrophy",
+      "Herniation of the diaphragm"
+    ],
+    "least_likely_disease": "Herniation of the diaphragm",
+    "ruling_out_question": "\"Do you experience any shortness of breath or difficulty breathing when lying flat?\""
+  },
+  {
+    "case_number": 39,
+    "doctor_vignette": "A 104-year-old male presents with progressive dyspnea and a persistent dry cough over the past three months. Physical examination reveals diminished breath sounds, clubbing of the fingers, and crackles on lung auscultation. A chest CT scan shows reticular patterns and ground-glass opacities consistent with interstitial lung disease.",
+    "actual_diagnosis": "Interstitial lung disease, ICD-10 code J84.9",
+    "diseases": [
+      "Idiopathic Pulmonary Fibrosis",
+      "Pulmonary Hypertension",
+      "Asbestosis",
+      "Sarcoidosis",
+      "Interstitial Lung Disease due to Hypersensitivity Pneumonitis",
+      "Lung Cancer",
+      "Connective Tissue Disease-Associated Interstitial Lung Disease",
+      "Vascular Disease-Induced Lung Disease",
+      "Chronic Eosinophilic Pneumonia",
+      "Lymphangioleiomyomatosis"
+    ],
+    "least_likely_disease": "Lymphangioleiomyomatosis",
+    "ruling_out_question": "\"Have you experienced any episodes of spontaneous pneumothorax or lung collapse?\""
+  },
+  {
+    "case_number": 40,
+    "doctor_vignette": "A 56-year-old female presents with a chief complaint of a persistent dull headache that has lasted for the past week. On physical examination, she exhibits tenderness in the pericranial muscles and normal neurological findings. No significant abnormalities were noted in her routine blood tests or imaging studies, which were unremarkable. She reports increased stress at work and poor sleep quality, contributing to her symptoms.",
+    "actual_diagnosis": "Tension-type headache, ICD-10 code G44.209",
+    "diseases": [
+      "Tension-Type Headache",
+      "Chronic Migraine",
+      "Cervicogenic Headache",
+      "Medication Overuse Headache",
+      "Hypnic Headache",
+      "Cluster Headache",
+      "Post-Traumatic Headache",
+      "Psychomyogenic Headache",
+      "Intracranial Hypertension",
+      "Sleep Apnea"
+    ],
+    "least_likely_disease": "Sleep Apnea",
+    "ruling_out_question": "\"Do you ever wake up feeling unrefreshed after a full night's sleep?\""
+  },
+  {
+    "case_number": 41,
+    "doctor_vignette": "A 121-year-old male presents with complaints of increased hand and foot size over the past few years. Physical examination reveals prominent facial features including a protruding jaw, enlarged hands, and thickened skin. Laboratory tests show elevated insulin-like growth factor 1 (IGF-1) levels, and an MRI of the pituitary gland reveals a pituitary adenoma.",
+    "actual_diagnosis": "Acromegaly, ICD-10 code E22.0",
+    "diseases": [
+      "Acromegaly",
+      "Pituitary Adenoma",
+      "Gigantism",
+      "Neurofibromatosis Type 1",
+      "Men type 1",
+      "Cushing's Disease",
+      "Marfan Syndrome",
+      "Mucopolysaccharidosis",
+      "Pachycephaly",
+      "Friedreich's Ataxia"
+    ],
+    "least_likely_disease": "Friedreich's Ataxia",
+    "ruling_out_question": "\"Have you experienced any significant balance issues or difficulty walking?\""
+  },
+  {
+    "case_number": 42,
+    "doctor_vignette": "A 9-year-old female presents to the clinic with severe abdominal pain and fatigue over the past two days. On physical examination, she exhibits pallor and tenderness in the abdomen, with a heart rate of 110 bpm. A complete blood count reveals a hemoglobin level of 6.5 g/dL and reticulocyte count is elevated. Peripheral blood smear shows sickle-shaped red blood cells.",
+    "actual_diagnosis": "Sickle cell disease, ICD-10 code D57.9",
+    "diseases": [
+      "Sickle Cell Anemia",
+      "Acute Splenic Sequestration",
+      "Acute Abdomen",
+      "Hemolytic Anemia",
+      "Aplastic Anemia",
+      "Vaso-Occlusive Crisis",
+      "Intravascular Hemolysis",
+      "Gastroenteritis",
+      "Lead Poisoning",
+      "Intussusception"
+    ],
+    "least_likely_disease": "Intussusception",
+    "ruling_out_question": "\"Have you experienced any episodes of vomiting or current presence of currant jelly stools?\""
+  },
+  {
+    "case_number": 43,
+    "doctor_vignette": "A 69-year-old male presents with a chief complaint of fever and productive cough for the past three days. On physical examination, he has decreased breath sounds and dullness to percussion on the right side, with crackles noted on auscultation. A chest X-ray reveals a right lower lobe consolidation, and sputum culture grows Klebsiella pneumoniae.",
+    "actual_diagnosis": "Pneumonia due to Klebsiella pneumoniae, ICD-10 code J15.0",
+    "diseases": [
+      "Pneumonia due to Klebsiella pneumoniae",
+      "Community-Acquired Pneumonia",
+      "Aspiration Pneumonia",
+      "Lung Abscess",
+      "Empyema",
+      "Bronchiectasis",
+      "Tuberculosis",
+      "Lung Cancer",
+      "Pulmonary Edema",
+      "Chronic Bronchitis"
+    ],
+    "least_likely_disease": "Chronic Bronchitis",
+    "ruling_out_question": "\"Have you experienced a chronic, productive cough for more than three months in the past year?\""
+  },
+  {
+    "case_number": 44,
+    "doctor_vignette": "A 22-year-old male presents with mood swings, reporting episodes of extreme elation followed by deep depressive states. During the physical exam, he exhibits a pressured speech pattern and displays signs of psychomotor agitation. No significant lab abnormalities are noted, and a routine urinalysis is unremarkable. There are no imaging studies performed, but the patient's history reveals recurrent mood episodes over the past year.",
+    "actual_diagnosis": "Bipolar disorder, ICD-10 code F31.9",
+    "diseases": [
+      "Bipolar I Disorder",
+      "Bipolar II Disorder",
+      "Major Depressive Disorder",
+      "Cyclothymic Disorder",
+      "Schizoaffective Disorder",
+      "Substance-Induced Mood Disorder",
+      "Attention-Deficit/Hyperactivity Disorder",
+      "Personality Disorder Not Otherwise Specified",
+      "Adjustment Disorder with Depressed Mood",
+      "Generalized Anxiety Disorder"
+    ],
+    "least_likely_disease": "Generalized Anxiety Disorder",
+    "ruling_out_question": "\"Do you often worry excessively about multiple aspects of your life, even when there is no apparent reason for concern?\""
+  },
+  {
+    "case_number": 45,
+    "doctor_vignette": "A 21-year-old male presents for a routine check-up, reporting fatigue and occasional chest discomfort after exercise. Physical examination reveals a body mass index (BMI) of 28 and xanthomas on his elbows. Lab results show elevated total cholesterol at 290 mg/dL and LDL levels at 180 mg/dL, with a low HDL of 35 mg/dL.",
+    "actual_diagnosis": "Hyperlipidemia, ICD-10 code E78.5",
+    "diseases": [
+      "Familial Hypercholesterolemia",
+      "Hyperlipidemia",
+      "Nonalcoholic Fatty Liver Disease",
+      "Atherosclerotic Cardiovascular Disease",
+      "Metabolic Syndrome",
+      "Hypothyroidism",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease",
+      "Psoriasis",
+      "Anxiety Disorder"
+    ],
+    "least_likely_disease": "Anxiety Disorder",
+    "ruling_out_question": "\"Do you often feel excessively worried or anxious about your daily activities?\""
+  },
+  {
+    "case_number": 46,
+    "doctor_vignette": "A 105-year-old female presents with complaints of aching and heaviness in her legs, particularly after prolonged sitting. Physical examination reveals prominent, tortuous veins in both lower extremities, with significant edema and skin changes in the affected areas. Doppler ultrasound confirms reflux in the great saphenous vein, indicative of chronic venous insufficiency.",
+    "actual_diagnosis": "Varicose veins of lower extremities, ICD-10 code I83.90",
+    "diseases": [
+      "Chronic Venous Insufficiency",
+      "Superficial Venous Thrombosis",
+      "Deep Vein Thrombosis",
+      "Venous Ulcer",
+      "Varicose Veins",
+      "Congestive Heart Failure",
+      "Peripheral Artery Disease",
+      "Lymphedema",
+      "Acute Arterial Occlusion",
+      "Avascular Necrosis"
+    ],
+    "least_likely_disease": "Avascular Necrosis",
+    "ruling_out_question": "\"Do you experience significant pain in your hip or thigh, especially with weight-bearing activities?\""
+  },
+  {
+    "case_number": 47,
+    "doctor_vignette": "A 142-year-old female presents with recurrent oral ulcers and painful genital lesions. Physical examination reveals erythematous nodules on her lower extremities and signs of uveitis in her left eye. Laboratory tests show elevated inflammatory markers and a positive pathergy test. Imaging of the eyes confirms retinal inflammation.",
+    "actual_diagnosis": "Beh\u00e7et's disease, ICD-10 code M35.2",
+    "diseases": [
+      "Beh\u00e7et's Disease",
+      "Reactive Arthritis",
+      "Sarcoidosis",
+      "Systemic Lupus Erythematosus",
+      "Vasculitis",
+      "Infectious Uveitis",
+      "Crohn's Disease",
+      "Herpes Simplex Virus Infection",
+      "Syphilis",
+      "Celiac Disease"
+    ],
+    "least_likely_disease": "Celiac Disease",
+    "ruling_out_question": "\"Have you experienced any significant weight loss, diarrhea, or abdominal pain in relation to eating?\""
+  },
+  {
+    "case_number": 48,
+    "doctor_vignette": "A 48-year-old male presents with recurrent joint dislocations and chronic joint pain. On physical examination, he demonstrates hypermobility in multiple joints, particularly in the fingers and elbows, alongside skin that is notably elastic and easily bruised. Genetic testing reveals a mutation in the COL5A1 gene, confirming connective tissue disorder.",
+    "actual_diagnosis": "Ehlers-Danlos syndrome, ICD-10 code Q79.6",
+    "diseases": [
+      "Ehlers-Danlos Syndrome, Classic Type",
+      "Ehlers-Danlos Syndrome, Hypertrophic Type",
+      "Ehlers-Danlos Syndrome, Vascular Type",
+      "Marfan Syndrome",
+      "Osteogenesis Imperfecta",
+      "Lupus Erythematosus",
+      "Arthrochalasia Ehlers-Danlos Syndrome",
+      "Dermatosparaxis Ehlers-Danlos Syndrome",
+      "Kniest Dysplasia",
+      "Laxity of the Connective Tissue Type 3"
+    ],
+    "least_likely_disease": "Laxity of the Connective Tissue Type 3",
+    "ruling_out_question": "\"Have you experienced any significant heart problems or vascular complications, such as rupture of blood vessels or arterial abnormalities?\""
+  },
+  {
+    "case_number": 49,
+    "doctor_vignette": "A 13-year-old male presents with complaints of fatigue and mild abdominal discomfort. On physical examination, he has a slightly enlarged liver and is noted to be overweight with a BMI in the 95th percentile. Laboratory tests reveal elevated liver enzymes (ALT and AST) and an abdominal ultrasound shows hepatic steatosis. ",
+    "actual_diagnosis": "Non-alcoholic fatty liver disease, ICD-10 code K76.0",
+    "diseases": [
+      "Nonalcoholic Fatty Liver Disease",
+      "Hepatitis",
+      "Wilson's Disease",
+      "Type 2 Diabetes Mellitus",
+      "Galactosemia",
+      "Metabolic Syndrome",
+      "Hemochromatosis",
+      "Celiac Disease",
+      "Biliary Atresia",
+      "Chronic Viral Hepatitis"
+    ],
+    "least_likely_disease": "Chronic Viral Hepatitis",
+    "ruling_out_question": "\"Have you experienced any jaundice, particularly yellowing of your skin or the whites of your eyes?\""
+  },
+  {
+    "case_number": 50,
+    "doctor_vignette": "A 148-year-old female presents with complaints of intermittent claudication, experiencing pain in her legs during walking. Physical examination reveals diminished femoral and popliteal pulses, and a notable decrease in ankle-brachial index (ABI) of 0.4. Additionally, her feet appear cold and have a pale coloration. Doppler ultrasound confirms significant stenosis in the superficial femoral artery.",
+    "actual_diagnosis": "Peripheral artery disease, ICD-10 code I73.9",
+    "diseases": [
+      "Peripheral Artery Disease",
+      "Atherosclerosis",
+      "Thromboangiitis Obliterans",
+      "Diabetes Mellitus",
+      "Raynaud's Phenomenon",
+      "Acute Limb Ischemia",
+      "Chronic Venous Insufficiency",
+      "Buerger's Disease",
+      "Cerebral Vascular Accident",
+      "Vascular Malformation"
+    ],
+    "least_likely_disease": "Vascular Malformation",
+    "ruling_out_question": "\"Have you experienced any visible dilated veins or abnormal swelling in your legs?\""
+  },
+  {
+    "case_number": 51,
+    "doctor_vignette": "An 84-year-old male presents to the emergency department with palpitations and shortness of breath for the past two days. On examination, he is found to have an irregularly irregular pulse at a rate of 130 beats per minute, along with mild bilateral lower extremity edema. An ECG reveals atrial fibrillation with no acute ischemic changes, and a chest X-ray shows mild cardiomegaly.",
+    "actual_diagnosis": "Atrial fibrillation, ICD-10 code I48.91",
+    "diseases": [
+      "Atrial Fibrillation",
+      "Heart Failure",
+      "Pulmonary Embolism",
+      "Hyperthyroidism",
+      "Chronic Obstructive Pulmonary Disease",
+      "Myocardial Ischemia",
+      "Aortic Stenosis",
+      "Valvular Heart Disease",
+      "Anemia",
+      "Pericardial Effusion"
+    ],
+    "least_likely_disease": "Pericardial Effusion",
+    "ruling_out_question": "\"Have you experienced any chest pain or a history of recent fever or infection?\""
+  },
+  {
+    "case_number": 52,
+    "doctor_vignette": "A 99-year-old male presents with increased thirst and frequent urination over the past week. Physical exam reveals weight loss and dry mucous membranes. Laboratory tests show a blood glucose level of 350 mg/dL and positive ketones in the urine. A history of early onset diabetes is noted, suggesting Type 1 diabetes mellitus.",
+    "actual_diagnosis": "Type 1 diabetes mellitus, ICD-10 code E10.9",
+    "diseases": [
+      "Diabetic Ketoacidosis",
+      "Type 1 Diabetes Mellitus",
+      "Hyperglycemic Hyperosmolar State",
+      "Diabetes Insipidus",
+      "Acute Renal Failure",
+      "Urinary Tract Infection",
+      "Chronic Kidney Disease",
+      "Congestive Heart Failure",
+      "Hypovolemia",
+      "Acute Myocardial Infarction"
+    ],
+    "least_likely_disease": "Acute Myocardial Infarction",
+    "ruling_out_question": "\"Have you experienced any chest pain or discomfort?\""
+  },
+  {
+    "case_number": 53,
+    "doctor_vignette": "A 130-year-old female presents with complaints of persistent headaches and dizziness over the past month. On physical examination, her blood pressure is recorded at 180/95 mmHg, and she exhibits mild edema in the lower extremities. Laboratory tests show elevated serum creatinine levels at 1.5 mg/dL, indicating possible renal impairment associated with chronic hypertension.",
+    "actual_diagnosis": "Hypertension, ICD-10 code I10",
+    "diseases": [
+      "Hypertensive Heart Disease",
+      "Chronic Kidney Disease",
+      "Primary Hypertension",
+      "Cerebrovascular Accident",
+      "Heart Failure",
+      "Hypertensive Encephalopathy",
+      "Pheochromocytoma",
+      "Cerebral Aneurysm",
+      "Diabetes Mellitus with Hypertensive Complications",
+      "Polycystic Kidney Disease"
+    ],
+    "least_likely_disease": "Polycystic Kidney Disease",
+    "ruling_out_question": "\"Have you ever experienced any significant abdominal pain or a palpable mass in your abdomen?\""
+  },
+  {
+    "case_number": 54,
+    "doctor_vignette": "A 102-year-old female presents with severe pain and stiffness in her knees, particularly after prolonged sitting. On physical examination, there is noticeable crepitus and tenderness over the medial joint lines of both knees, with a reduced range of motion. X-rays reveal joint space narrowing and osteophyte formation consistent with osteoarthritis.",
+    "actual_diagnosis": "Osteoarthritis, ICD-10 code M15.9",
+    "diseases": [
+      "Osteoarthritis",
+      "Rheumatoid Arthritis",
+      "Gout",
+      "Pseudogout",
+      "Meniscal Tear",
+      "Patellofemoral Pain Syndrome",
+      "Bursitis",
+      "Osteonecrosis",
+      "Septic Arthritis",
+      "Neoplasm (e.g., Bone Tumor)"
+    ],
+    "least_likely_disease": "Neoplasm (e.g., Bone Tumor)",
+    "ruling_out_question": "\"Have you experienced any unexplained weight loss or significant fatigue recently?\""
+  }
+]

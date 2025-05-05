@@ -1,17 +1,25 @@
 from openai import OpenAI
 import os
 import json
+from api_key import key
 
-from cases import cases
-
-API_KEY = os.getenv("OPENAI_API_KEY")
+API_KEY = key
 client = OpenAI(api_key=API_KEY)
+
+def load_cases(filename="medical_cases.json"):
+    """Load cases from JSON file"""
+    try:
+        with open(filename, 'r') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading cases: {e}")
+        return []
 
 def probabilistic_inference(doctor_vignette):
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": f"""You are an expert medical diagnosis assistant. Based on the patient information provided below, determine the top 20 most likely diagnoses, ordered from most to least likely.
+            {"role": "system", "content": f"""You are an expert medical diagnosis assistant. Based on the patient information provided below, determine the top 10 most likely diagnoses, ordered from most to least likely.
 
 Patient Information: {doctor_vignette}
 
@@ -64,13 +72,24 @@ Example for "Acute Myeloid Leukemia":
     return answer.strip()
 
 def main():
+    # Load cases from JSON file
+    cases = load_cases()
+    if not cases:
+        print("No cases found in medical_cases.json")
+        return
+        
     results = []
     total_questions = 0
+    
+    # Create or clear results.json
+    with open('results.json', 'w') as f:
+        json.dump([], f)
     
     for case_idx, case in enumerate(cases, 1):
         case_result = {
             "case_number": case_idx,
             "doctor_vignette": case['doctor_vignette'],
+            "actual_diagnosis": case['actual_diagnosis'],
             "diseases": [],
             "least_likely_disease": "",
             "ruling_out_question": ""
@@ -95,18 +114,21 @@ def main():
         print(f"\nAll Diseases (most to least likely):")
         for i, disease in enumerate(diseases, 1):
             print(f"{i}. {disease}")
-        print(f"\nLeast Likely Disease: {least_likely_disease}")
+        print(f"\nActual Diagnosis: {case['actual_diagnosis']}")
+        print(f"Least Likely Disease: {least_likely_disease}")
         print(f"Ruling Out Question: {question}")
         
+        # Add the new case result
         results.append(case_result)
-    
-    # Save results to a JSON file
-    with open('results.json', 'w') as f:
-        json.dump(results, f, indent=2)
+        
+        # Update results.json after each case
+        with open('results.json', 'w') as f:
+            json.dump(results, f, indent=2)
+        print("\nUpdated results.json with current case")
     
     print(f"\nTotal cases processed: {len(cases)}")
     print(f"Total questions generated: {total_questions}")
-    print("\nResults have been saved to results.json")
+    print("\nFinal results have been saved to results.json")
 
 if __name__ == "__main__":
     main()
